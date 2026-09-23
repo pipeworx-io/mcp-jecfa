@@ -2,7 +2,7 @@
 
 Safety evaluations from the Joint FAO/WHO Expert Committee on Food Additives: Acceptable Daily Intakes (ADIs), the committee's conclusions, dietary-exposure findings, and the meeting reports and toxicological monographs behind them — for food additives, flavourings, food contaminants and veterinary drug residues.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1576+ live data sources.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1663+ live data sources.
 
 JECFA is the body whose ADI a regulator cites when it sets a limit. This pack answers *"has this substance been evaluated, and what intake did the committee judge acceptable"* — not *"is it permitted in yogurt in the EU"*, which is the Codex GSFA / national-regulator question.
 
@@ -92,7 +92,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1576+ data sources. The
+Both URLs reach the same gateway and the same 1663+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
