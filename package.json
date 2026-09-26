@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-jecfa",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "JECFA (Joint FAO/WHO Expert Committee on Food Additives) — safety evaluations,",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-084a50f6a675c46d5c26380a619502c5f0aae30a357d62dea46b95f7714b5222",
-    "sourceCommit": "70cd53748fc9f9a43ed3681d751bfa96e701efd2"
+    "sourceHash": "v1-d0811abf99e0222f4df791c0b7afd2db5c42260c8b450c13fc8440490f918e7e",
+    "sourceCommit": "1064560fd9dcd0d6fc2606298c2ba244b3a1fbeb"
   }
 }
