@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-jecfa",
-  "version": "0.1.3",
+  "version": "0.2.0",
   "description": "JECFA (Joint FAO/WHO Expert Committee on Food Additives) — safety evaluations, Acceptable Daily Intakes and specifications for food additives, flavourings, contaminants and veterinary drug residues.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-jecfa": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "jecfa"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-jecfa.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/jecfa",
   "pipeworx": {
-    "sourceHash": "v1-4c9148bc0741beef185d6bc9bdba08b204a8f9ee0239a75a7a734b87b3a24eec",
-    "sourceCommit": "33741fe6d9ba71856e73fa683c73572d1ddf2e93"
+    "mode": "gateway",
+    "slug": "jecfa",
+    "gatewaySlug": "jecfa",
+    "sourceHash": "v1-72bae5071ed1813e5ac78f9828883c80453bb193025e5fc034c98d33a1d4285e",
+    "sourceCommit": "4844029e402d6bd2fe735add8abf6d46735f8ed5"
   }
 }
